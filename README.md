@@ -8,7 +8,7 @@ In this exercise you must will solve a number of challenges for manipulating and
 
 ## Objectives
 
-1. Fork this repository to your own GitHub profile and clone to your local machine. Run `http-server` in terminal and open localhost:8080 in Chrome to see failing tests.  Edit `sunshine.js` to make tests pass.
+1. Fork this repository to your own GitHub profile and clone to your local machine. Run `http-server` in terminal and open [http://localhost:8080](http://localhost:8080) in Chrome to see failing tests.  Edit `sunshine.js` to make tests pass.
 
 2. Write a function that takes a string of characters and converts the string to an array of the individual characters, reverses the array and returns the reversed string of the original. Bonus: Use RegEx to create the array
 
