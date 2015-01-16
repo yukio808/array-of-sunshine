@@ -5,8 +5,16 @@
   Bonus: Use RegEx to create the array
 */
 function reverseString(str) {
+var result = "";
 
-}
+charArray = str.split("");
+
+reversedArray = charArray.reverse();
+
+result = reversedArray.join("");
+
+return result;
+};
 
 /**
   Write a function that takes two parameters as input in the order
@@ -17,8 +25,8 @@ function reverseString(str) {
   Then convert the array to a string and return it.
 */
 function spliceString(str, char) {
-
-}
+var lastCharachter = array 
+};
 
 /**
   Using the Array map() method write a function that takes an array
