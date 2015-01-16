@@ -27,9 +27,10 @@ return result;
 function spliceString(str, char) {
   var result =  str[str.length -1] + str.slice(0, -1);
   result = result.slice(0, -1) + char + result[result.length-1];
+  console.log(result)
 
   return result;
-
+// "hello"  -o + "hell"
 };
 /**
   Using the Array map() method write a function that takes an array
