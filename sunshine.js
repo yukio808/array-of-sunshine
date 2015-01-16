@@ -25,9 +25,12 @@ return result;
   Then convert the array to a string and return it.
 */
 function spliceString(str, char) {
-var lastCharachter = array 
-};
+  var result =  str[str.length -1] + str.slice(0, -1);
+  result = result.slice(0, -1) + char + result[result.length-1];
 
+  return result;
+
+};
 /**
   Using the Array map() method write a function that takes an array
   of strings as input and returns a duplicate array with all strings
@@ -36,5 +39,9 @@ var lastCharachter = array
   Instead of "ickenchay", it should just become "hickencay".
 */
 function speakPigLatin(strArray) {
-
-}
+  var resultarray = strArray.map(function (str){
+    var result = str.slice(1,str.length) + str[0] + "ay";
+    return result;
+  });
+  return resultarray;
+};
